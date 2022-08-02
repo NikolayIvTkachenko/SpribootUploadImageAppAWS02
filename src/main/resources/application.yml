@@ -1,0 +1,25 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKI23SAC34AC365623324
+      secret-key: iPsdsdvsdvdsvdsvdsvsdvdsvsdvsdv
+    region:
+      static: ap-south-1
+    stack:
+      auto: false
+      
+          
+application:
+  bucket:
+    name: javatechiesstorage
+    
+    
+spring:  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+         
+server:  port: 9090
+                
